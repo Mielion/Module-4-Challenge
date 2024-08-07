@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 7px double black;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+    border-bottom: 7px double black;
+}
+
+h1{
+    width:500px;
+    height:10px;
+}
+.back-button {
+    margin-left:90%;
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+aside {
+    display:flex;
+    margin-left:90%;
+
+}
+.container {
+    background-color:white;
+    padding: 10px;
+    box-shadow: 0 0 10px;
+}
+
+.post {
+    border: 2px solid #000;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.post h2 {
+    margin: 0 0 10px;
+    border-bottom: solid black;
+}
+
+.content {
+    margin: 0 0 15px;
+}
+
+.author {
+    padding-top: 30px;
+    font-style: italic;
+}
+
+footer{
+    display: grid;
+    padding: 20px 0;
+    border-top: 7px double black;
+    text-align: left;
+    background-color: #f0f0f0;
+}
+
+.Made {
+    text-align: center;
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark .post {
+    background-color: #000;
+}
+
+.dark .post h2, .dark .post p {
+    color: #fff;
+}
+
+.dark .back-button {
+    color: #ffff;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+
+.mode {
+    font-size: 23px;
+}
